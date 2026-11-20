@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F7F9FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Doc"
+            android:textColor="#1877A8"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_marginTop="55dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votre santé, notre priorité"
+            android:textColor="#718096"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="45dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenue !"
+            android:textColor="#263445"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connectez-vous à votre compte"
+            android:textColor="#718096"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adresse e-mail"
+            android:textColor="#263445"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="exemple@email.com"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:backgroundTint="#1877A8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mot de passe"
+            android:textColor="#263445"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Votre mot de passe"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:backgroundTint="#1877A8" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Se connecter"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#1877A8"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vous n'avez pas de compte ? "
+                android:textColor="#718096"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S'inscrire"
+                android:textColor="#1877A8"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

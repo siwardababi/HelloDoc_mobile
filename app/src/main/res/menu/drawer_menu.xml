@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Accueil" />
+
+        <item
+            android:id="@+id/nav_appointments"
+            android:icon="@drawable/ic_calendar"
+            android:title="Mes rendez-vous" />
+
+        <item
+            android:id="@+id/nav_records"
+            android:icon="@drawable/ic_documents"
+            android:title="Mes dossiers médicaux" />
+
+        <item
+            android:id="@+id/nav_doctors"
+            android:icon="@drawable/ic_doctor"
+            android:title="Médecins" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Mon profil" />
+
+    </group>
+
+    <item android:title="Compte">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Déconnexion" />
+        </menu>
+    </item>
+
+</menu>

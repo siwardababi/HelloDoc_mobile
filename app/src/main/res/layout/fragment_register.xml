@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F7F9FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Doc"
+            android:textColor="#1877A8"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Créer votre compte"
+            android:textColor="#263445"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rejoignez Hello Doc pour gérer votre santé."
+            android:textColor="#718096"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="25dp" />
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Prénom"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:backgroundTint="#1877A8" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:hint="Nom"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:backgroundTint="#1877A8" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:hint="Adresse e-mail"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:backgroundTint="#1877A8" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:hint="Téléphone (8 à 15 chiffres)"
+            android:inputType="phone"
+            android:padding="15dp"
+            android:backgroundTint="#1877A8" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:hint="Adresse"
+            android:inputType="textPostalAddress"
+            android:padding="15dp"
+            android:backgroundTint="#1877A8" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:hint="Mot de passe (8 caractères minimum)"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:backgroundTint="#1877A8" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:hint="Confirmer le mot de passe"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:backgroundTint="#1877A8" />
+
+        <CheckBox
+            android:id="@+id/cbConsent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="J'accepte les conditions et le traitement de mes données."
+            android:textColor="#263445" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Créer mon compte"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#1877A8"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Déjà un compte ? Se connecter"
+            android:textColor="#1877A8"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="18dp" />
+
+    </LinearLayout>
+</ScrollView>
